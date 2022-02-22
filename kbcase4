@@ -1,0 +1,7 @@
+eating(dudley).
+unhappy(dudley).
+kicking(dudley,uncle_vernon).
+happy(aunt_petunia):-unhappy(dudley).
+happy(uncle_vernon):- unhappy(dudley),happy(harry).
+happy(dudley):-kicking(dudley,harry).
+happy(dudley):- eating(dudley).
