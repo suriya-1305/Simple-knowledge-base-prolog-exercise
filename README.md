@@ -1,0 +1,1 @@
+# Simple-knowledge-base-prolog-exercise
